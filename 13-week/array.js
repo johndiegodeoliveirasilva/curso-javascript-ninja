@@ -41,3 +41,28 @@ arr.every(function(item) {
 arr.some(function(item){
   return item < 5
 })
+
+
+// Map
+  var arr = [1, 2, 3, 4, 5];
+
+  var map = arr.map(function(item, index, array){
+    return { index: index,  item: item}
+  })
+
+  // Filter
+
+  var filter = arr.filter(function(item, index, array) {
+    return item > 2
+
+  })
+
+  // Concat map and filter
+
+var map = arr.map(function(item){
+  return item + 10;
+}).filter(function(item){
+  return item > 13;
+});
+
+console.log(map)
