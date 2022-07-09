@@ -1,3 +1,1 @@
 #curso-javascript-ninja
-
-teste
